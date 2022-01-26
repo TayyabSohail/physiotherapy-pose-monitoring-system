@@ -25,6 +25,9 @@ python demo.py
 TO BE DEFINED
 ```
 
+Press 'q' to quit the OpenCV demonstration.
+
+
 ## Project Description:
 * Based on Mediapipe's Pose Estimation Model [Blazepose](https://arxiv.org/abs/2006.10204) at the backend which is responsible for calculating the 3D coordinates of the human body keypoints.
 * We extract the three: ankle, knee and hip keypoints and form two straight lines joning ankle and knee(A) / knee and hip(B). Calculating the angle between the two straight lines A and B gives us the angle formed at knee which is then used for counter increments and calculating holding timer. 
