@@ -121,4 +121,4 @@ def knee_physio(videoCapture_param=0):
 
 
 if __name__=='__main__':
-    knee_physio('vide.mp4')
+    knee_physio()
