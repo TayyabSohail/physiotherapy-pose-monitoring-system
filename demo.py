@@ -1,9 +1,9 @@
 # Import libraries
 import cv2
+import mediapipe as mp
 import time
 import argparse
 import numpy as np
-import mediapipe as mp
 
 
 # Defining the argument parser
